@@ -1,0 +1,40 @@
+{
+  "name": "phaser3-es6-boilerplate",
+  "version": "1.0.0",
+  "description": "Phaser.IO 3 ES6 Boiler Plate",
+  "author": "David Kaparis",
+  "license": "MIT",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "browser-sync": "^2.23.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "phaser": "^3.6.0",
+    "raw-loader": "^0.5.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-split-chunks": "^0.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "webpack-bundle-analyzer": "^2.11.1"
+  },
+  "keywords": [
+    "2D",
+    "HTML5",
+    "WebGL",
+    "canvas",
+    "game",
+    "javascript",
+    "physics",
+    "phaser",
+    "game engine"
+  ]
+}

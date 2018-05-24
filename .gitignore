@@ -1,0 +1,6 @@
+/dist/
+
+/node_modules/
+
+#VS Code Files
+/.vscode/

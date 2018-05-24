@@ -1,0 +1,45 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": false
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "globals": {
+        "Phaser": true,
+        "game" : true
+      },
+    "settings": {
+        "import/core-modules": ["phaser"]
+    },
+    "rules": {
+        "indent": [
+            "warn",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "warn",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-trailing-spaces": [ 
+            "warn", 
+            { "skipBlankLines": true, "ignoreComments": true }
+        ],
+        "no-underscore-dangle": [
+            "warn", 
+            { "allowAfterThis": false, "allowAfterSuper": false }  
+        ]
+    }
+}

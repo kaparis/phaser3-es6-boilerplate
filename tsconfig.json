@@ -1,0 +1,19 @@
+/**
+ * @author       David Kaparis 
+ * @license      See LICENSE.md
+ * @description  Configuration file configures the TypeScript Engine
+                 Using in this project to provide intellisense in VS Code for JS Files that have type.ts files created
+ */
+
+{
+  "compilerOptions": {
+    "target": "es5", /* Define target JavaScript Version to compile too */
+    "module": "commonjs", /* Define target module code generation */        
+    "sourceMap": true, /* true create a .map file */
+    "allowJs": true /* Include JS files in compile */
+    },
+    "include": [
+      "src/**/*",
+      "defs/**/*"
+    ]
+}
